@@ -1,0 +1,283 @@
+header {
+	text-align: center;
+	color: #3F57FF;
+	background-color: #5BC8FF;
+	margin-top: 0;
+}
+h1 { 
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 40px;
+}
+
+html {
+	background-image: url('../images/earth.png');
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 650px;
+}
+
+.instructions { 
+	color: #DD48E5;
+	text-align: center;
+}
+
+.instructions .button button{
+	width: 100px;
+	height:50px;
+	background-color: #16F322;
+	color: blue;
+	font-size: 20px;
+	font-family: "Roboto" ;
+	padding: 0 0 4px 0;
+	border-radius: 10px;
+	border:2px solid blue;
+	border-radius: 10px;
+	
+}
+
+
+.question1 {
+	text-align: center;
+	color: #59C7FF;
+	display: none;
+	
+}
+
+.question2 {
+	text-align: center;
+	color: #59C7FF;
+	display: none;
+}
+.question3 {
+	text-align: center;
+	color: #59C7FF;
+	display: none;
+}
+.question4  {
+	text-align: center;
+	color: #59C7FF;
+	display: none;
+}
+.question5  {
+	text-align: center;
+	color: #59C7FF;
+	display:none;
+}
+.question6  {
+	text-align: center;
+	color: #59C7FF;
+	display:none;
+}
+.question7  {
+	text-align: center;
+	color: #59C7FF;
+	display:none;
+}
+.question8  {
+	text-align: center;
+	color: #59C7FF;
+	display: none;
+}
+.question9  {
+	text-align: center;
+	color: #59C7FF;
+	display: none;
+}
+.question10  {
+	text-align: center;
+	color: #59C7FF;
+	display: none;
+}
+
+.tonga, .mariana, .phillipine, .puertorico, 
+.bolivia, .israel, .southafrica, .russia, 
+.monaco, .sanmarino, .malta, .vaticancity, 
+.colombo, .suva, .jakarta, .dhaka, 
+.reykjavik, .copenhagen, .edinburgh, .helsinki,
+.kara, .okhotsk, .eastsiberian, .bering, 
+.sydney, .canberra, .wellington, .melbourne,
+.wyoming, .florida, .newyork, .california, 
+.zurich, .geneva, .basel, .bern, 
+.K2, .everest, .denali, .montblanc{
+	background-color: #59C7FF;
+	color: #3F57FF;
+	border: 2px solid #3F57FF;
+	border-radius: 5px;
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+
+}
+
+.question1 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+	
+
+}
+.question2 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+}
+
+.question3 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+
+}
+.question4 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+
+}
+.question5 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+
+} 
+.question6 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+
+} 
+.question7 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+
+} 
+.question8 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+
+} 
+.question9 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display:none;
+
+} 
+.question10 .next button{
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+} 
+
+.finish { 
+	text-align: center;
+	color:#DD48E5;
+	display: none;
+	}
+
+.finish .replayGame button {
+	background-color: #DD48E5;
+	color: #59C7FF;
+	border: 2px solid #DD48E5;
+	border-radius: 5px;
+	width: 175px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+	display: none;
+}
+
+
+
