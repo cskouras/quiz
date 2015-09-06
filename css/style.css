@@ -25,6 +25,7 @@ html {
 .instructions { 
 	color: #DD48E5;
 	text-align: center;
+	display:none;
 }
 
 .instructions .button button{
@@ -38,15 +39,13 @@ html {
 	border-radius: 10px;
 	border:2px solid blue;
 	border-radius: 10px;
-	
+	display:none;
 }
 
 
 .question1 {
 	text-align: center;
 	color: #59C7FF;
-	display: none;
-	
 }
 
 .question2 {
@@ -115,9 +114,21 @@ html {
 	font-size: 20px;
 	margin: 10px;
 	margin-left:50px;
-
 }
 
+.correct { 
+	background-color: #10FF12;
+	color: #3F57FF;
+	border: 2px solid #3F57FF;
+	border-radius: 5px;
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+
+}
 .question1 .next button{
 	background-color: #DD48E5;
 	color: #59C7FF;
@@ -129,9 +140,6 @@ html {
 	font-size: 20px;
 	margin: 10px;
 	margin-left:50px;
-	display: none;
-	
-
 }
 .question2 .next button{
 	background-color: #DD48E5;
