@@ -25,7 +25,7 @@ html {
 .instructions { 
 	color: #DD48E5;
 	text-align: center;
-	display:none;
+
 }
 
 .instructions .button button{
@@ -39,13 +39,14 @@ html {
 	border-radius: 10px;
 	border:2px solid blue;
 	border-radius: 10px;
-	display:none;
+
 }
 
 
 .question1 {
 	text-align: center;
 	color: #59C7FF;
+	display:none;
 }
 
 .question2 {
@@ -94,16 +95,16 @@ html {
 	display: none;
 }
 
-.tonga, .mariana, .phillipine, .puertorico, 
-.bolivia, .israel, .southafrica, .russia, 
-.monaco, .sanmarino, .malta, .vaticancity, 
-.colombo, .suva, .jakarta, .dhaka, 
-.reykjavik, .copenhagen, .edinburgh, .helsinki,
-.kara, .okhotsk, .eastsiberian, .bering, 
-.sydney, .canberra, .wellington, .melbourne,
-.wyoming, .florida, .newyork, .california, 
-.zurich, .geneva, .basel, .bern, 
-.K2, .everest, .denali, .montblanc{
+#tonga, #mariana, #phillipine, #puertorico, 
+#bolivia, #israel, #southafrica, #russia, 
+#monaco, #sanmarino, #malta, #vaticancity, 
+#colombo, #suva, #jakarta, #dhaka, 
+#reykjavik, #copenhagen, #edinburgh, #helsinki,
+#kara, #okhotsk, #eastsiberian, #bering, 
+#sydney, #canberra, #wellington, #melbourne,
+#wyoming, #florida, #newyork, #california, 
+#zurich, #geneva, #basel, #bern, 
+#K2, #everest, #denali, #montblanc{
 	background-color: #59C7FF;
 	color: #3F57FF;
 	border: 2px solid #3F57FF;
@@ -127,9 +128,32 @@ html {
 	font-size: 20px;
 	margin: 10px;
 	margin-left:50px;
-
 }
-.question1 .next button{
+.wrong {
+	background-color: #FF4F45;
+	color: #3F57FF;
+	border: 2px solid #3F57FF;
+	border-radius: 5px;
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	margin-left:50px;
+}
+
+.niceJob { 
+	color:#DD48E5;
+	display:none;
+}
+
+
+.sorry { 
+	color:#DD48E5;
+	display:none;
+} 
+
+.question1 #question1{
 	background-color: #DD48E5;
 	color: #59C7FF;
 	border: 2px solid #DD48E5;
@@ -140,8 +164,9 @@ html {
 	font-size: 20px;
 	margin: 10px;
 	margin-left:50px;
+	display: none;
 }
-.question2 .next button{
+ #next1, #next2, #next3, #next4, #next5, #next6, #next7, #next8, #next9, #next10 {
 	background-color: #DD48E5;
 	color: #59C7FF;
 	border: 2px solid #DD48E5;
@@ -273,7 +298,7 @@ html {
 	display: none;
 	}
 
-.finish .replayGame button {
+.finish #replay{
 	background-color: #DD48E5;
 	color: #59C7FF;
 	border: 2px solid #DD48E5;
